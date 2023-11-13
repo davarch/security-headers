@@ -6,8 +6,8 @@ composer require davarch/security-headers
 ```
 
 ## Usage
-```php
-
+```bash
+php artisan vendor:publish --provider="Davarch\SecurityHeaders\Providers\PackageServiceProvider" --tag="config"
 ```
 
 ## Code style
